@@ -34,12 +34,9 @@
         <h1>Count Me In!</h1>
         <p class="lead">Reserve your spot for Rumble Run Club. All are welcome, and all fitness levels are welcome.</p>
 
-        <form action="https://formsubmit.co/alpharetta@rumbleboxinggym.com" method="POST">
-          <input type="hidden" name="_subject" value="Count Me In! — Rumble Run Club Registration">
-          <input type="hidden" name="_template" value="table">
+        <form action="https://run.alpharetta.fit/signup/submit" method="POST" accept-charset="UTF-8">
           <input type="hidden" name="_next" value="https://olid12345678.github.io/rumble-run-club-email/thank-you.html">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="text" name="_honey" style="display:none">
+          <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
 
           <label for="name">Name</label>
           <input id="name" name="Name" type="text" autocomplete="name" required>
@@ -60,7 +57,7 @@
             <label for="aug15">August 15 at 8:30 AM</label>
           </div>
           <div class="choice">
-            <input id="both" name="Run Date" type="radio" value="Both dates — August 8 and August 15 at 8:30 AM">
+            <input id="both" name="Run Date" type="radio" value="Both dates: August 8 and August 15 at 8:30 AM">
             <label for="both">Both dates</label>
           </div>
 
